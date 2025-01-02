@@ -1,5 +1,5 @@
-# dumpling
-JVM기반 웹 통신 프레임워크 - dumpling
+# dumpling 25/01/02~
+Kotlin JVM기반 웹 통신 프레임워크 - dumpling
 
 ## 도전 과제
 - [ ] Socket과 ServerSocket 클래스를 사용한 기본 TCP 통신 구현
@@ -36,4 +36,5 @@ JVM기반 웹 통신 프레임워크 - dumpling
 - [ ] 메모리 누수 테스트
 - [ ] API 문서 작성
 - [ ] 사용 예제 작성
+- [ ] 성능비교
 - [ ] Maven/Gradle 배포 설정
