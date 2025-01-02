@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version Versions.KOTLIN
+    kotlin("jvm")
 }
 
 group = "com.kimmandoo.dumpling"
@@ -13,7 +13,6 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation(Dependencies.coroutinesCore)
     implementation(Dependencies.slf4jApi)
-
     testImplementation(Dependencies.junitApi)
     testImplementation(Dependencies.junitEngine)
     testImplementation(Dependencies.mockk)
